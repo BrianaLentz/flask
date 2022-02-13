@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.box1 {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+}
+.box2 {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+}
+td {
+    margin: 0px;
+}
+tr {
+    margin: 0px
+}
+table { 
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: 1px solid black;
+} 
