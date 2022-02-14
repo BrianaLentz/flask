@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Survey User</title>
 </head>
 <body>
-    <h1>User:</h1>
-<h3>{{session['username']}}</h3>
-<h3>{{session['useremail']}}</h3>
+    <h1>{{session['name']}}</h1>
+    <p>Location: {{session['loc']}}  </p>
+    <p>Language: {{session['lang']}}</p>
+    <p>Comments: {{session['comm']}}</p>
+    
 </body>
 </html>
-
-
